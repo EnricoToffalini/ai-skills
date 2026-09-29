@@ -1,0 +1,14 @@
+interface:
+  display_name: Enrico Writing Style
+  short_description: Draft email and scientific prose in Enrico’s preferred style
+  default_prompt: Draft or revise this text using Enrico’s context-sensitive writing
+    style.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true
