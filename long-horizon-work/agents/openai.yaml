@@ -1,0 +1,11 @@
+interface:
+  display_name: Long Horizon Work
+  short_description: Manage sustained work without unnecessary project-state artifacts
+  default_prompt: Decide whether this is genuinely long-horizon work, then manage scope, continuation, checkpoints, and stopping conditions conservatively.
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true
