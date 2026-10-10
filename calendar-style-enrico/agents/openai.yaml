@@ -1,0 +1,11 @@
+interface:
+  display_name: Enrico Calendar Style
+  short_description: Turn Enrico's emails into events on the right Google Calendar, with a verifiable report
+  default_prompt: Read the indicated email(s) and add the resulting events to the right calendar following Enrico's conventions, then report everything done.
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true
