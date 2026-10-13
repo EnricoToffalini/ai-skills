@@ -1,9 +1,11 @@
 ---
 name: writing-style-enrico
-description: Draft or revise Enrico Toffalini's email, academic correspondence, and scientific prose in Italian or English. Use when Enrico asks to write, reply, shorten, restructure, translate, or surgically revise text in his own style, especially emails to students, colleagues, editors, or institutions and scientific articles, abstracts, reviews, talks, and grant prose.
+description: Assist Enrico Toffalini in drafting and revising email, academic correspondence, and scientific prose in Italian or English. Use when Enrico asks for help writing, replying, shortening, restructuring, translating, or surgically revising text respecting his own style, especially emails to editors, colleagues, students, or institutions and scientific reports, abstracts, reviews, talks, and grant prose.
 ---
 
 # Enrico's Writing Style
+
+Help Enrico draft and revise text in his preferred style.
 
 Choose the register from the audience and document type. Do not blend email conventions into scientific prose.
 
@@ -36,7 +38,7 @@ Typical shapes:
 
 ## Scientific prose
 
-Write plain, natural academic English. Aim for English that a native speaker would readily use and that remains easy for an international reader. Use short sentences. 
+Write plain, natural academic English. Aim for English that a native speaker would readily understand and that remains easy for an international reader. Use short sentences. 
 
 ### Language
 

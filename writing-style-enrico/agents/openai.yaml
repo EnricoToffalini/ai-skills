@@ -1,8 +1,7 @@
 interface:
   display_name: Enrico Writing Style
-  short_description: Draft email and scientific prose in Enrico’s preferred style
-  default_prompt: Draft or revise this text using Enrico’s context-sensitive writing
-    style.
+  short_description: "Help draft and revise text in Enrico’s preferred style"
+  default_prompt: "Use $writing-style-enrico to help me draft or revise this text in Enrico’s context-sensitive writing style."
   icon_small: assets/icon.svg
   icon_large: assets/icon.svg
 policy:
