@@ -42,14 +42,16 @@ For long-running substantial projects, keep agent-facing guidance useful to the 
 
 ## Visual language
 
-Aim for an editorial, restrained, information-first appearance.
+**Default look for HTML output:** unless Enrico asks otherwise or the project already has (or needs) its own identity, use Enrico's **house style**, the look shared by his homepage, `/slides` and `/blog`: UniPD-like red `#9b0014` with gold hairlines on an ivory background, Cormorant Garamond headings with Source Sans Pro body, red navbar with gold hairline, red title banner. Ready-made `_brand.yml`, `styles.css` and `listing.css` are in `assets/house-style/`; read `references/house-style.md` before applying it. It applies especially to Quarto websites, but also to standalone HTML reports.
+
+Beyond that, aim for an editorial, restrained, information-first appearance.
 
 - Control line length and content width rather than filling the viewport.
 - Prefer a strong but limited accent color and quiet neutral supporting colors.
 - When a conventional top navbar is appropriate, strongly prefer a **solid accent-color bar with white text/icons** and a clear but restrained active state.
 - Use muted text for metadata, captions, secondary notes, and supporting information.
 - Prefer compact cards, thin rules, restrained shadows, and callouts with a strong left rule over large colored panels.
-- Avoid generic "AI-designed" aesthetics: oversized hero sections, excessive gradients, huge rounded cards, decorative dashboards, and large areas of purposeless whitespace.
+- Avoid generic "AI-designed" aesthetics: oversized hero sections, excessive gradients, huge rounded cards, decorative dashboards, and large areas of purposeless whitespace. The house style's gradient navbar/banner and gold hairlines are a deliberate identity, not a license to add more decoration.
 - Use typography and spacing to show hierarchy before adding decoration.
 
 For detailed HTML/CSS conventions, read `references/html-style.md`.

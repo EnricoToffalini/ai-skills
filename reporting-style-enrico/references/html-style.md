@@ -1,5 +1,7 @@
 # HTML and CSS Conventions
 
+For Enrico's own HTML work, the default concrete look is the house style in `house-style.md` (with files in `assets/house-style/`). The conventions below are the general principles behind it, and the guide for projects that keep or need a different identity.
+
 ## Overall feel
 
 Prefer a readable editorial/scientific page over a generic product landing page.
@@ -152,6 +154,8 @@ Check at least a normal laptop width and a narrow/mobile width. On smaller scree
 - let wide data tables scroll if necessary.
 
 ## Avoid by default
+
+(The house style's gradient navbar, title banner and small hover effects are deliberate exceptions; see `house-style.md`.)
 
 - giant hero banners for ordinary research sites;
 - gradients without semantic purpose;
