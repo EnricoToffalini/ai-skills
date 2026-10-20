@@ -1,6 +1,5 @@
 /* Enrico's house style for Quarto HTML (sites, reports, blogs)
-   Source: github.com/EnricoToffalini/blog (styles.css), shared look with
-   enricotoffalini.github.io and /slides. Base colors and fonts live in _brand.yml;
+   Base colors and fonts live in _brand.yml (white page background);
    use together with  theme: [cosmo, brand]  and  css: styles.css.
    Optional effects are marked OPTIONAL and can be deleted as a block. */
 
@@ -9,7 +8,7 @@
   --red-deep: #5e0010;
   --gold: #c8a26b;
   --gold-light: #e7d3ae;
-  --ivory: #fbf8f3;
+  --bg-soft: #f7f5f2;
   --ink: #231c19;
   --muted: #6f625a;
   --line: #e8e1d8;
@@ -190,7 +189,7 @@ a:hover {
   to   { opacity: 1; transform: none; }
 }
 
-/* author / date row under the banner, small caps as in /slides */
+/* author / date row under the banner, small caps */
 .quarto-title-meta {
   padding-top: .4rem;
 }
@@ -263,7 +262,7 @@ main.content hr {
 main.content blockquote,
 main.content .blockquote {
   border-left: 3px solid var(--gold);
-  background: rgba(255, 255, 255, .7);
+  background: var(--bg-soft);
   border-radius: 0 10px 10px 0;
   padding: .9rem 1.3rem;
   margin: 1.6rem 0;
@@ -281,7 +280,7 @@ main.content :not(pre) > code {
 }
 div.sourceCode,
 main.content pre {
-  background-color: #fff;
+  background-color: var(--bg-soft);
   border: 1px solid var(--line);
   border-radius: 10px;
 }
@@ -343,7 +342,7 @@ figcaption,
 }
 
 details {
-  background: rgba(255, 255, 255, .7);
+  background: var(--bg-soft);
   border: 1px solid var(--line);
   border-left: 3px solid var(--red);
   border-radius: 10px;

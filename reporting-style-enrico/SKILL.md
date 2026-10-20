@@ -42,7 +42,7 @@ For long-running substantial projects, keep agent-facing guidance useful to the 
 
 ## Visual language
 
-**Default look for HTML output:** unless Enrico asks otherwise or the project already has (or needs) its own identity, use Enrico's **house style**, the look shared by his homepage, `/slides` and `/blog`: UniPD-like red `#9b0014` with gold hairlines on an ivory background, Cormorant Garamond headings with Source Sans Pro body, red navbar with gold hairline, red title banner. Ready-made `_brand.yml`, `styles.css` and `listing.css` are in `assets/house-style/`; read `references/house-style.md` before applying it. It applies especially to Quarto websites, but also to standalone HTML reports.
+**Default look for HTML output:** unless Enrico asks otherwise or the project already has (or needs) its own identity, use Enrico's **house style**: UniPD-like red `#9b0014` with thin gold hairlines on a **white** page background, Cormorant Garamond headings with Source Sans Pro body, red navbar with gold hairline, red title banner. Ready-made `_brand.yml`, `styles.css` and `listing.css` are in `assets/house-style/`; read `references/house-style.md` before applying it. It applies especially to Quarto websites, but also to standalone HTML reports.
 
 Beyond that, aim for an editorial, restrained, information-first appearance.
 

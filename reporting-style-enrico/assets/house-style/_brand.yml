@@ -1,15 +1,15 @@
-# Enrico's house style: palette and fonts shared by enricotoffalini.github.io,
-# /slides and /blog. Body text: Source Sans Pro from the cosmo theme;
-# headings: Cormorant Garamond. Use with: theme: [cosmo, brand]
+# Enrico's house style: palette and fonts. Body text: Source Sans Pro from the
+# cosmo theme; headings: Cormorant Garamond. White page background.
+# Use with: theme: [cosmo, brand]
 color:
   palette:
     red: "#9b0014"
     red-deep: "#5e0010"
     gold: "#c8a26b"
-    ivory: "#fbf8f3"
+    white: "#ffffff"
     ink: "#231c19"
   primary: red
-  background: ivory
+  background: white
   foreground: ink
 
 typography:

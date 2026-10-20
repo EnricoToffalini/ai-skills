@@ -6,7 +6,7 @@
   margin-top: -1rem;
 }
 
-/* posts as light cards, in the style of /slides */
+/* posts as light cards */
 .quarto-listing-default .quarto-post {
   position: relative;
   padding: 1.6rem 1.4rem;
@@ -26,7 +26,7 @@
   transition: opacity .35s ease;
 }
 .quarto-listing-default .quarto-post:hover {
-  background-color: #fff;
+  background-color: var(--bg-soft);
   border-bottom-color: transparent;
   box-shadow: 0 14px 34px rgba(60, 0, 8, .08);
   transform: translateY(-2px);
@@ -76,7 +76,7 @@
   font-size: 17px;
 }
 
-/* date and authors: small caps as in /slides */
+/* date and authors: small caps */
 .quarto-post .metadata {
   padding-top: .55rem;
 }
@@ -117,14 +117,14 @@
   padding: .2em .8em;
   border: 1px solid rgba(155, 0, 20, .18);
   border-radius: 999px;
-  background: rgba(255, 255, 255, .7);
+  background: #fff;
   font-size: .9rem;
   transition: border-color .3s ease, background-color .3s ease;
 }
 .quarto-listing-category .category:hover,
 .quarto-listing-category .category.active {
   border-color: var(--gold);
-  background: #fff;
+  background: var(--bg-soft);
   color: var(--red);
 }
 #quarto-margin-sidebar:not(:has(.quarto-listing-category .category + .category)) {
