@@ -1,0 +1,29 @@
+# Enrico's house style: palette and fonts. Body text: Source Sans Pro from the
+# cosmo theme; headings: Cormorant Garamond. White page background.
+# Use with: theme: [cosmo, brand]
+color:
+  palette:
+    red: "#9b0014"
+    red-deep: "#5e0010"
+    gold: "#c8a26b"
+    white: "#ffffff"
+    ink: "#231c19"
+  primary: red
+  background: white
+  foreground: ink
+
+typography:
+  fonts:
+    - family: Cormorant Garamond
+      source: google
+      weight: [500, 600, 700]
+      style: [normal, italic]
+  base:
+    line-height: 1.65
+  headings:
+    family: Cormorant Garamond
+    weight: 600
+    color: ink
+  link:
+    color: red
+    decoration: none
